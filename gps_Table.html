@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="lv">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Author" content="Uldis Grunde-Zeiderts">
+		<title>Maršuta lapa</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	</head>
+	<body>
+			<table border="1">
+			<thead>
+				<tr>
+				<th rowspan="2">Datums</th>
+				<th rowspan="2">Laiks</th>
+				<th colspan="2">Kordinātes</th> 
+				<th rowspan="2">Adrese</th>
+				<th rowspan="2">Odometrs pirms izbraukšanas</th>
+				<th rowspan="2">Odometrs pēc atbraukšnas</th>
+				<th rowspan="2">Nobraukums</th>
+				<th rowspan="2">Komentārs</th>
+				<th rowspan="2" >Izbrauc</th>
+				<th>+/-</th>
+				</tr>
+				<tr>
+				<th>Lan:</th>
+				<th>Long:</th>
+				<th><button onclick="addHtmlTableRow(table);">Add</button></th>
+				</tr>
+			<thead>
+			<tbody id="table"></tbody>
+		</table>
+
+<output type="text" id="demo"></output>
+<output type="text" id="demo2"></output>
+</body>
+</html>
